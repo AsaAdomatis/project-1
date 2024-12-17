@@ -113,3 +113,46 @@ The notebooks in cleaning code where used to produce some of .csv's for used by 
 <p>Using the Prophet model, we analyzed rushing data from 2017 and 2018 to forecast 2019 rushing attempts. The trend shows a steady decline from 2017 to 2019, with 2019 expected to see further decreases compared to 2018. In 2017, the mean rushing attempts were 97.39, dropping to 85.99 in 2018.</p>
 
 ---
+
+<h4 style="text-align: center;">Rushing Attempts Prediction vs Actual (2019)</h4>
+<p align="center"><img src="public/assets/images/2019_actual_vs_predicted_attempts.png"/></p>
+
+The **Prophet model** predicted a decline in rushing attempts for 2019, but actual NFL data showed a slight increase, indicating stabilization.  
+
+### Key Notes:
+- **Prediction Accuracy**: Past trends may be unreliable due to shifting team strategies.  
+- **Data Discrepancies**: Differences between Kaggle/Pro Football Reference data and official NFL stats revealed a larger spread in rushing attempts (2017-2018), potentially biasing the prediction.  
+
+---
+
+<p align="center"><img src="public\assets\images\Avg Salary v Types of Awards Won.png"/></p>
+<p>
+Our visualization on avg. salary (mean cap hit) v. Types of Awards Won supports the observation that player who received awards earn on a higher cap hit.
+</p>
+
+---
+
+
+<p align="center"><img src="public\assets\images\Fumbles v Cap Hit.png"/></p>
+
+<p>
+Analyzing the relationship between fumbles and salary reveals a weak positive correlation of 0.22, with only 5% of salary variation explained by fumbles. Despite reaching statistical significance, the scattered plot and low R-squared value suggest that fumbles have minimal impact on a player's salary. 
+
+</p>
+
+---
+
+
+<p align="center"><img src="public\assets\images\Predicted Rushing Attempts.png"/></p>
+<p>
+Using prophet, we predicted 2019 mean rushing yards and compared them to actual results. Prophet predicted 340 mean rushing yards for 2019 when the actual was 324 mean rushing yards. The actual mean rushing yards decreased more than the predicted rushing yards.
+</p>
+
+---
+
+
+<p align="center"><img src="public\assets\images\Total Rushing Yards for Running Backs.png"/></p>
+<p>
+The regression of Total Rush Yards v. Salary Cap Hit revealed an r-value of 0.5325 meaning the total rush yards of NFL running backs has a moderate positive correlation to cap hit. The p-value of 0.0002 supports the statistical significance of the finding. This means that Total rushing yards is a significant component in determing a NFL player's salary.
+</p>
+
