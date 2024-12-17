@@ -34,4 +34,8 @@ Through the synthesis and analysis of several datasets encompassing NFL player p
 
 ## Results
 ### Analysis
-in progress...
+<p align="center"><img src="public/assets/images/age_vs_salary.png"/></p><br/>
+<p>The chart supports the claim that players aged 22–30 earn the highest cap hits and that there is a visible decline in both salary and the number of active players beyond age 30.</p>
+<p align="center"><img src="public/assets/images/touchdowns_vs_salary.png"/></p><br/>
+<p>Looking at NFL position salaries, running backs (RB) earn approximately $1.5 million per year, placing them in the lower third of the pay scale. This relatively modest compensation compared to quarterbacks at $7 million, or guards and defensive ends at $4-5 million, raises an interesting question: how does actual performance impact RB salaries? This leads us to our next analysis examining the relationship between touchdowns and salary.
+</p>
