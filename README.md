@@ -41,3 +41,24 @@ The notebooks in cleaning code where used to produce some of .csv's for used by 
 <p align="center"><img src="public/assets/images/touchdowns_vs_salary.png"/></p><br/>
 <p>Looking at NFL position salaries, running backs (RB) earn approximately $1.5 million per year, placing them in the lower third of the pay scale. This relatively modest compensation compared to quarterbacks at $7 million, or guards and defensive ends at $4-5 million, raises an interesting question: how does actual performance impact RB salaries? This leads us to our next analysis examining the relationship between touchdowns and salary.
 </p>
+<p align="center"><img src="public/assets/images/touchdowns_vs_salary.png"/></p><br/>
+<p>Looking at NFL position salaries, running backs (RB) earn approximately $1.5 million per year, placing them in the lower third of the pay scale. This relatively modest compensation compared to quarterbacks at $7 million, or guards and defensive ends at $4-5 million, raises an interesting question: how does actual performance impact RB salaries? This leads us to our next analysis examining the relationship between touchdowns and salary.
+</p>
+<p align="center"><img src="public\assets\images\Avg Salary v Types of Awards Won.png"/></p><br/>
+<p>
+Our visualization on avg. salary (mean cap hit) v. Types of Awards Won supports the observation that player who received awards earn on a higher cap hit.
+</p>
+<p align="center"><img src="public\assets\images\Fumbles v Cap Hit.png"/></p><br/>
+<p>
+Analyzing the relationship between fumbles and salary reveals a weak positive correlation of 0.22, with only 5% of salary variation explained by fumbles. Despite reaching statistical significance, the scattered plot and low R-squared value suggest that fumbles have minimal impact on a player's salary. 
+
+</p>
+<p align="center"><img src="public\assets\images\Predicted Rushing Attempts.png"/></p><br/>
+<p>
+Using prophet, we predicted 2019 mean rushing yards and compared them to actual results. Prophet predicted 340 mean rushing yards for 2019 when the actual was 324 mean rushing yards. The actual mean rushing yards decreased more than the predicted rushing yards.
+</p>
+<p align="center"><img src="public\assets\images\Total Rushing Yards for Running Backs.png"/></p><br/>
+<p>
+The regression of Total Rush Yards v. Salary Cap Hit revealed an r-value of 0.5325 meaning the total rush yards of NFL running backs has a moderate positive correlation to cap hit. The p-value of 0.0002 supports the statistical significance of the finding. This means that Total rushing yards is a significant component in determing a NFL player's salary.
+</p>
+
