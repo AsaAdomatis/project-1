@@ -59,19 +59,35 @@ The notebooks in cleaning code where used to produce some of .csv's for used by 
 
 ### Analysis
 
-<p align="center"><img src="public/assets/images/age_vs_salary.png"/></p><br/>
+---
+
+<h4 style="text-align: center;">Age Vs Salary</h4>
+
+<p align="center"><img src="public/assets/images/age_vs_salary.png"/></p>
 <p>The chart supports the claim that players aged 22–30 earn the highest cap hits and that there is a visible decline in both salary and the number of active players beyond age 30.</p>
-<p align="center"><img src="public/assets/images/position_vs_salary.png"/></p><br/>
+
+---
+
+<h4 style="text-align: center;">Position Vs Salary</h4>
+
+<p align="center"><img src="public/assets/images/position_vs_salary.png"/></p>
 <p>Looking at NFL position salaries, running backs (RB) earn approximately $1.5 million per year, placing them in the lower third of the pay scale. This is a relatively modest amount compared to quarterbacks at $7 million, or guards and defensive ends at $4-5 million.</p>
-<p align="center"><img src="public/assets/images/touchdowns_vs_salary.png"/></p><br/>
+
+---
+
+<h4 style="text-align: center;">Touchdowns Vs Salary</h4>
+<p align="center"><img src="public/assets/images/touchdowns_vs_salary.png"/></p>
+
 <p>The analysis shows a definite relationship between running back salaries and their touchdown performance, with an R-value of 0.6155 indicating a moderate positive correlation and a statistically significant P-value of 0.0112. However, while touchdowns are a factor, the R-squared value of 0.3788 suggests that teams consider additional performance metrics and factors when evaluating compensation.</p>
 
+---
+<h4 style="text-align: center;">Rush Attempts Vs Salary</h4>
 <p>Running back rushing attempts and salary data are grouped by Year, Player, and Position to calculate average Rushing Attempts and Cap Hit per player for the season. The annotation near the regression line highlights the mean rushing attempts and mean cap hit for all players. The regression line, y = mx + b, represents the best linear fit and predicts Cap Hit based on Rushing Attempts.</p>
 <table>
   <tr>
     <td style="vertical-align: top; width: 50%; padding-right: 20px;">
         <img src="public/assets/images/2017_avg_attempts_vs_salary.png" />
-        2017 Analysis:
+        <b>2017 Analysis:</b>
         <ol>
           <li>r-value: 0.6120 indicates a moderate positive correlation.</li>
           <li>R-squared: 0.3746 shows 37.46% of the variance in “Cap Hit” is explained by “Rushing Attempts.”</li>
@@ -80,7 +96,7 @@ The notebooks in cleaning code where used to produce some of .csv's for used by 
     </td>
     <td style="vertical-align: top; width: 50%; padding-left: 20px;">
         <img src="public/assets/images/2018_avg_attempts_vs_salary.png" />
-        2018 Analysis:
+        <b>2018 Analysis:</b>
         <ol>
           <li>r-value: 0.5233 indicates a moderate positive correlation.</li>
           <li>R-squared: 0.2739 shows 27.39% of the variance in “Cap Hit” is explained by “Rushing Attempts.”</li>
@@ -89,5 +105,11 @@ The notebooks in cleaning code where used to produce some of .csv's for used by 
     </td>
   </tr>
 </table>
-<p align="center"><img src="public/assets/images/2019_rush_attempts_forecast.png"/></p><br/>
+
+---
+
+<h4 style="text-align: center;">2019 Rush Attempts Forecast</h4>
+<p align="center"><img src="public/assets/images/2019_rush_attempts_forecast.png"/></p>
 <p>Using the Prophet model, we analyzed rushing data from 2017 and 2018 to forecast 2019 rushing attempts. The trend shows a steady decline from 2017 to 2019, with 2019 expected to see further decreases compared to 2018. In 2017, the mean rushing attempts were 97.39, dropping to 85.99 in 2018.</p>
+
+---
