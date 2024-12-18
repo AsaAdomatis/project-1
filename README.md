@@ -157,3 +157,9 @@ Using prophet, we predicted 2019 mean rushing yards and compared them to actual 
 The regression of Total Rush Yards v. Salary Cap Hit revealed an r-value of 0.5325 meaning the total rush yards of NFL running backs has a moderate positive correlation to cap hit. The p-value of 0.0002 supports the statistical significance of the finding. This means that Total rushing yards is a significant component in determing a NFL player's salary.
 </p>
 
+# Data
+We pulled data from several sources and merged the data together. The sources we used are as follows:
+- [Kaggle](https://www.kaggle.com/datasets/f4k25g/nfl-salaries) - for 2014 thru 2020 Running back salary data
+- [Pro Football Reference](https://www.pro-football-reference.com/years/2017/rushing.htm) - 2017-2018 running Player statistics
+- [Official NFL Stats](https://www.nfl.com/stats/player-stats/category/rushing/2017/REG/all/rushingyards/DESC) - 2017-2019 Actual NFL Player statistics
+- [Stathead](https://stathead.com/football/player-season-finder.cgi?request=1&year_min=2017&year_max=2017&positions%5B%5D=rb) - 2017-2018 Player position data
