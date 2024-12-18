@@ -53,7 +53,9 @@ pip install prophet
 
 ### Cleaning Code
 
-The notebooks in cleaning code where used to produce some of .csv's for used by combining databases, however they are not needed to run the code, as the .csv's are stored throughout the project to be used raw.
+The notebooks in the cleaning code combined data from multiple sources to produce some of the .csv's. 
+However they are not needed to run the code, as the .csv's are stored throughout the project files and can
+be used raw.
 
 ## Results
 
