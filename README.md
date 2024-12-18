@@ -64,10 +64,8 @@ The notebooks in cleaning code where used to produce some of .csv's for used by 
 <h4 style="text-align: center;">Age Vs Salary</h4>
 
 <p align="center"><img src="public/assets/images/age_vs_salary.png"/></p>
+<p>  The data display is a scatter plot that aims to visualize the relationship between the age of an NFL running back and their salary cap hit. Each point on the plot represents a single running back.</p>
 <p>The chart supports the claim that players aged 22–30 earn the highest cap hits and that there is a visible decline in both salary and the number of active players beyond age 30.</p>
-
----
-
 <h4 style="text-align: center;">Position Vs Salary</h4>
 
 <p align="center"><img src="public/assets/images/position_vs_salary.png"/></p>
