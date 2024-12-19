@@ -1,4 +1,4 @@
-# Appendix
+<h1># Appendix</h1>
 
 ## A. Additional References
 
@@ -35,4 +35,34 @@ Import and Clean Salary Data: Next, it imports data about NFL players' salaries 
 Merge Rushing and Salary Data: The most crucial step is to merge these two datasets into a single DataFrame. It uses an "inner join" based on the 'Player' and 'Tm'(team) column. Meaning it only keeps rows where a player is found in both the rushing and salary datasets.
 Export Merged Data: Finally, it saves the merged data, containing both rushing statistics and salary information, into a new CSV file.
 
+## collects, cleans, and saves 2018 NFL rushing data.
+    Collects: It scrapes data from a website containing 2018 NFL rushing statistics.
+Cleans: It cleans the data by:
+Simplifying column names for easier use.
+Removing extra spaces from column names.
+Handling missing values in key columns like Age and Rk.
+Ensuring columns like Player, Tm, and Age have the correct data types.
+Adds Year: It adds a "Year" column to identify the data's year (2018).
+Saves: It saves the cleaned data to a CSV file named "2018_nfl_rushing.csv" in the "output" directory.
 
+## Takes separate datasets of NFL rushing statistics and player salaries, cleans and prepares them, and then combines them into two files containing the merged data for 2017 and 2018, respectively
+    Imports and Cleans Data:
+
+Imports NFL rushing data for 2017 and 2018 from a website using pd.read_html.
+Imports NFL salary data for 2017 and 2018 from a CSV file using pd.read_csv.
+Cleans and prepares both datasets by:
+Removing rows with missing values.
+Renaming columns for consistency (e.g., 'season' to 'Year', 'name' to 'Player', 'team' to 'Tm').
+Removing leading/trailing spaces from column names.
+Converting data types to appropriate formats (e.g., 'Player' to string, 'Age' to integer).
+Filters Salary Data:
+
+Extracts salary information specifically for the years 2017 and 2018.
+Merges Data:
+
+Combines the rushing and salary data for each year based on the 'Player' column using an inner join. This means only players with data in both datasets are included.
+Exports Results:
+
+Saves the merged datasets (rushing and salary combined) for 2017 and 2018 into separate CSV files:
+"2017_merged_rushing_salary_finals.csv"
+"2018_merged_rushing_salary_finals.csv"
