@@ -1,4 +1,4 @@
-<h1 class="center">Appendix</h1>
+<h1>Appendix</h1>
 
 ## A. Additional References
 
